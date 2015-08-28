@@ -2,13 +2,14 @@
 
 (function() {
   var percent = 0;
+  var loadSpeed = 1;
   var loadingBar = document.getElementById("loadingBar");
   var loadingText = document.getElementById("loadingText");
 
-  window.setInterval(changeLoad, 100);
+  window.setInterval(changeLoad, 75);
 
   function changeLoad() {
-    percent = percent + 2;
+    percent = percent + loadSpeed;
     if(percent >= 100) {
       loadingBar.style.width = "100%";
       loadingText.innerText = "Completed!";
