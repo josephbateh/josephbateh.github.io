@@ -1,5 +1,6 @@
 
-
+//This function makes the loading bar on my main page work.
+//It loads at 1 percent for every 75 milliseconds
 (function() {
   var percent = 0;
   var loadSpeed = 1;
