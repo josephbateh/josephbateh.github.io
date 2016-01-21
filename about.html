@@ -3,11 +3,6 @@
 <html lang="en">
   <head>
     <!-- Layout uses components from getbootstrap.com -->
-    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,10 +19,10 @@
     <!-- Custom styles for this template -->
     <link href="starter-template.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+
   </head>
 
   <body>
-
     <!-- This is the navbar from bootstrap which contains buttons for the links to my other pages -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -38,67 +33,64 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Joseph Bateh</a>
+          <a class="navbar-brand" href="index.html">Joseph Bateh</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
-    <!-- HTML element that has some bootstrap CSS styling so I have something on this page while it "loads" -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Welcome!</h1>
-        <p>This is the personal website of Joseph Bateh</p>
-        <p><a class="btn btn-primary btn-lg" href="about.html" role="button">Who am I?</a></p>
-      </div>
+    <!-- A bunch of containers with bootstrap CSS styling so my information looks nice -->
+    <div class="container">
+      <h3>About Me</h3>
     </div>
-
-
-    <!-- Page content. I put youtube videos because I felt like my main page should have things I like -->
-    <div id="uniqueId">
-      <div class="container">
-        <h3>Here are my liked videos on YouTube.</h3>
-      </div>
-      <div class="well container">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=FLPEaX52gCyaLYn1wrIzcdNA" allowfullscreen></iframe>
-        </div>
-      </div>
-
-      <div class="container">
-        <h3>Here is a video I made in high school. Enjoy.</h3>
-      </div>
-      <div class="well container">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZeeDaw0SPbo" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-
-    <!-- Loading div which makes it look like something is loading on my main page -->
     <div class="container well">
-      <h3>Loading...</h3>
-      <div class="progress">
-        <div id="loadingBar" class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
-          <span id="loadingText">text here</span>
-        </div>
-      </div>
+      <p>I am a third year Computer Engineering student at the University of Florida. I am a fan of the Jacksonville Jaguars (sadly), Florida Gators (obviously), Arsenal FC, and Orlando City SC.
+      </p>
+    </div>
+
+    <div class="container">
+      <h3>Work Experience</h3>
+    </div>
+    <div class="container well">
+      <h4>Greenshades Software (Summer 2015)</h4>
+      <h5>Development Intern</h5>
+      <li>Developed a Windows Store application</li>
+      <li>Used web technologies like Javascript and HTML</li>
+      <li>Worked with a team of four others</li>
+      <br>
+      <h4>DiscoverTec (Summer 2014)</h4>
+      <h5>Production Intern</h5>
+      <li>Created small videos for clients</li>
+      <br>
+      <h4>Publix (Summer 2012)</h4>
+      <h5>Cashier</h5>
+      <li>Ensured customer satisfaction</li>
+    </div>
+
+    <div class="container">
+      <h3>My Stuff</h3>
+    </div>
+    <div class="container well">
+      <li><a href="https://www.linkedin.com/pub/joseph-bateh/a0/579/5b6">LinkedIn</a></li>
+      <li><a href="https://twitter.com/josephbateh">Twitter</a></li>
+      <li><a href="https://www.youtube.com/channel/UCPEaX52gCyaLYn1wrIzcdNA">YouTube</a></li>
+      <li><a href="https://www.dropbox.com/s/kb58ns0g8i07rjk/Resume.docx?dl=0">Resume</a></li>
     </div>
     <div class="container">
       <p>Built using Bootstrap, HTML, and CSS. This message brought to you by the Oxford Comma.</p>
-    </div>
-
-    <script type="text/javascript" src="main.js"></script>
-
+    </dv>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
