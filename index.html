@@ -1,129 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Layout uses components from getbootstrap.com -->
-    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-    <!-- Layout uses components from getbootstrap.com -->
+<head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
-    <meta name="author" content="Joseph Bateh">
-    <link rel="icon" href="http://etc.usf.edu/presentations/extras/letters/varsity_letters/01/22/j-400.png">
+    <meta name="author" content="">
 
     <title>Joseph Bateh</title>
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
-    <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-  </head>
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
 
-  <body class="avoidMenuBar">
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
 
-    <!-- This is the navbar from bootstrap which contains buttons for the links to my other pages -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand active" href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Joseph Bateh</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Professional</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#social">Social Media</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
+        <!-- /.container-fluid -->
     </nav>
 
-    <!-- HTML element that has some bootstrap CSS styling so I have something on this page while it "loads" -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Welcome!</h1>
-        <p>Below are some things I've made and also a picture of me with Josh Scobee</p>
-        <!-- Split button -->
-        <div class="btn-group">
-          <a type="button" class="btn btn-primary btn-lg" href="about.html">Who Am I?</a>
-          <button type="button" class="btn btn-primary dropdown-toggle btn-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <span class="caret"></span>
-            <span class="sr-only">Toggle Dropdown</span>
-          </button>
-          <ul class="dropdown-menu">
-            <li><a href="about.html">About</a></li>
-            <li><a href="https://www.dropbox.com/s/kb58ns0g8i07rjk/Resume.docx?dl=0">Resume</a></li>
-            <li><a href="https://www.linkedin.com/pub/joseph-bateh/a0/579/5b6">LinkedIn</a></li>
-            <li><a href="https://github.com/JosephBateh">GitHub</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="https://twitter.com/josephbateh">Twitter</a></li>
-            <li><a href="https://www.youtube.com/channel/UCPEaX52gCyaLYn1wrIzcdNA">YouTube</a></li>
-          </ul>
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Welcome to the personal website of Joseph Bateh</h1>
+                <hr>
+                <!-- <p>Placeholder text</p> -->
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Who am I?</a>
+            </div>
         </div>
-      </div>
-    </div>
+    </header>
 
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-      </ol>
-
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img src="http://i.imgur.com/ZlRB0Dm.jpg" alt="picture">
-          <div class="carousel-caption">
-
-          </div>
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">About Me</h2>
+                    <hr class="light">
+                    <p class="text-faded">I am in my third year at the University of Florida where I am pursuing a degree in Computer Science. My hobbies include watching and playing football and soccer, playing videogames, and making really awesome stuff!</p>
+                    <a href="#contact" class="btn btn-default btn-xl">Contact Me!</a>
+                </div>
+            </div>
         </div>
-        <div class="item">
-          <img src="http://i.imgur.com/FJAIFAQ.jpg" alt="picture">
-          <div class="carousel-caption">
+    </section>
 
-          </div>
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://www.linkedin.com/in/joseph-bateh-5b6579a0" class="portfolio-box">
+                        <img src="img/portfolio/linkedin.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Professional
+                                </div>
+                                <div class="project-name">
+                                    LinkedIn
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://github.com/JosephBateh" class="portfolio-box">
+                        <img src="img/portfolio/github.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Professional
+                                </div>
+                                <div class="project-name">
+                                    GitHub
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://www.dropbox.com/s/kb58ns0g8i07rjk/Resume.docx?dl=0" class="portfolio-box">
+                        <img src="img/portfolio/dropbox.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Professional
+                                </div>
+                                <div class="project-name">
+                                    Resume
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="item">
-          <img src="http://i.imgur.com/misHQms.jpg" alt="picture">
-          <div class="carousel-caption">
+    </section>
 
-          </div>
+    <section class="no-padding" id="social">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://twitter.com/josephbateh" class="portfolio-box">
+                        <img src="img/portfolio/twitter.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Social
+                                </div>
+                                <div class="project-name">
+                                    Twitter
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://www.youtube.com/channel/UCPEaX52gCyaLYn1wrIzcdNA" class="portfolio-box">
+                        <img src="img/portfolio/youtube.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Social
+                                </div>
+                                <div class="project-name">
+                                    YouTube
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://www.instagram.com/josephbateh/" class="portfolio-box">
+                        <img src="img/portfolio/instagram.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Social
+                                </div>
+                                <div class="project-name">
+                                    Instagram
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
-      </div>
+    </section>
 
-      <!-- Controls -->
-      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-   <!-- Page content. I put youtube videos because I felt like my main page should have things I like -->
-   <div class="">
-     <div class="embed-responsive embed-responsive-16by9">
-       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZeeDaw0SPbo" allowfullscreen></iframe>
-     </div>
-   </div>
+    <!-- <section id="social">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Social Media</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
+                        <h3>Twitter</h3>
+                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <h3>YouTube</h3>
+                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                        <h3>Instagram</h3>
+                        <p class="text-muted">We update dependencies to keep things fresh.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                        <h3>Made with Love</h3>
+                        <p class="text-muted">You have to make your websites with love these days!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  </body>
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Random Link</h2>
+                <a href="https://www.youtube.com/watch?v=HDI9inno86U" class="btn btn-default btn-xl wow tada">Go!</a>
+            </div>
+        </div>
+    </aside>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">So you want to talk, eh?</h2>
+                    <hr class="primary">
+                    <p>Contact me!</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                    <p>(904) 521-8641</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:josephbateh@gmail.com">josephbateh@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
+</body>
+
 </html>
