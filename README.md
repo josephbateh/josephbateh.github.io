@@ -6,7 +6,7 @@ To use this theme, choose one of the following options to get started:
 
 ## Bugs and Issues
 
-Did you find a bug? Email me at josephbateh@gmail.com!
+Did you find a bug? Email me at contact@josephbateh.com!
 
 ## Creator
 
