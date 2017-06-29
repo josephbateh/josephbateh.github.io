@@ -1,4 +1,4 @@
-Welcome to josephbateh.com!
+## [Joseph Bateh](http://josephbateh.com/) - [Joseph Bateh]
 
 ## Bugs and Issues
 
