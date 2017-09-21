@@ -1,4 +1,4 @@
-## [Joseph Bateh](http://josephbateh.com/)
+Welcome to josephbateh.com!
 
 ## Bugs and Issues
 
@@ -6,7 +6,11 @@ Did you find a bug? Email me at website@josephbateh.com!
 
 ## Creator
 
-This website was created and is maintained by [Joseph Bateh](https://josephbateh.com)
+This website was created and is maintained by Joseph Bateh
+
+* https://twitter.com/josephbateh
+* https://github.com/josephbateh
+* https://josephbateh.com
 
 ## Copyright and License
 
